@@ -1,2 +1,6 @@
-1235656+56+xsxsxs
-vdfvdvdfbf
+// sword: this.password,
+//         })
+//         .then(() => {
+//           this.$router.push({name: 'home'})
+//         })
+//     },
