@@ -1,0 +1,116 @@
+$theme:#F97F29;
+$font: 'Averta';
+$red: #ff1515;
+$green: #2DAF53;
+$second: #DFF298;
+:root {
+    --theme: #{$theme};
+    --dark: #1A2842;
+    --light: #{lighten($theme, 10%)};
+    --focus: #{transparentize($theme, .7)};
+    --opacity: #{transparentize($theme, .9)};
+    --preloader: #{transparentize($theme, .1)};
+    --second: #{$second};
+    --second-dark: #{darken($second, 10%)};
+    --second-light: #{lighten($second, 10%)};
+    --second-focus: #{transparentize($second, .7)};
+    --second-opacity: #{transparentize($second, .9)};
+    --second-preloader: #{transparentize($second, .1)};
+    --font: #{$font},
+    sans-serif;
+    --bgr: #F7F7F7;
+    --text: #303030;
+    --grey: rgba(0, 0, 0, 0.1);
+    --placeholder: rgba(0, 0, 0, 0.4);
+    --border: rgba(0, 0, 0, 0.05);
+    --line: rgba(0, 0, 0, 0.09);
+    --padding: 6rem;
+    --shadow-s: 0 0.66rem 2rem rgba(0, 0, 0, 0.1);
+    --shadow-m: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+    --shadow-l: 0 1.5rem 4.5rem rgba(0, 0, 0, 0.15);
+    --shadow-btn: 0 0.1rem 2rem rgba(0, 0, 0, 0.2);
+    --container: 110rem;
+    --tariff-bg: #F2F6F8;
+    --advantages: 3;
+    --popup-container: 42rem;
+    --logo: 3.2rem;
+    --header: 9rem;
+    --fz: 1.4rem;
+    --section-p: calc((100vw - var(--container)) / 2);
+    --filter-bg: #EEE7E3;
+    --bg: #fff;
+    --bg-op: rgba(255, 255, 255, 0.7);
+    --tariff: 5;
+    --sidebar: 28rem;
+    --catalog-grid: 2;
+    --about: 5;
+    --red: #{$red};
+    --red-dark: #{darken($red, 10%)};
+    --red-light: #{lighten($red, 10%)};
+    --red-focus: #{transparentize($red, .7)};
+    --red-opacity: #{transparentize($red, .9)};
+    --green: #{$green};
+    --green-dark: #{darken($green, 10%)};
+    --green-light: #{lighten($green, 10%)};
+    --green-focus: #{transparentize($green, .7)};
+    --green-opacity: #{transparentize($green, .9)};
+    --btn-fz: 1.3rem;
+    --field: 3.5rem;
+    --field-sm: 3rem;
+    --field-md: 3.5rem;
+    --field-lg: 5.6rem;
+    --label-size: 1rem;
+    --subtitle-size: 1.2rem;
+    --icon-size: 3rem;
+    --icon-size-sm: 1.8rem;
+    --filter: 1;
+}
+
+.white {
+    --bg: #000;
+    --bg-op: rgba(0, 2, 53, 0.7);
+    --glass: rgba(0, 0, 0, 0.2);
+    --glass: rgba(0, 0, 0, 0.1);
+    --grey-bg: rgba(255, 255, 255, 0.07);
+    --text: #fff;
+    --text-opacity: rgba(255, 255, 255, 0.1);
+    --grey: rgba(255, 255, 255, 0.65);
+    --placeholder: rgba(255, 255, 255, 0.4);
+    --border: rgba(255, 255, 255, 0.15);
+    color: var(--text);
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 767px) {
+     :root {
+        --container: calc(100vw - 5rem);
+        --btn-fz: 1.3rem;
+        --field: 4.3rem;
+        --field-sm: 3.8rem;
+        --about: 1;
+        --header: 5.2rem;
+        --logo: 3.2rem;
+        --advantages: 1;
+        --padding: 3.5rem;
+        --tariff: 1;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 768px) and (max-width: 1023px) {
+     :root {
+        --btn-fz: 1.3rem;
+        --field: 4.8rem;
+        --field-sm: 3.8rem;
+        --field-lg: 5.3rem;
+        --header: 8rem;
+        --tariff: 3;
+        --container: calc(100vw - 10rem);
+    }
+}
+
+@media (max-width: 1399px) and (min-width: 1024px) {
+     :root {
+        --container: 100rem;
+    }
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title></title>
+</head>
+
+<body>
+    @@include('_header.html')
+
+    <!-- <div data-scrollbar="true" id="main-scrollbar"> -->
+
+
+    <section class="main">
+        <div class="wrapper">
+            <div class="navbar">
+                <div class="navigation-panel">
+                    <nav class="nav-menu">
+                        <a href="#main" class="active">Портфолио</a>
+                        <a href="#feature">About</a>
+                        <a href="#about">Feature</a>
+                        <a href="#services">Services</a>
+                        <a href="#contact">Contact</a>
+                    </nav>
+                    <div class="circ">
+
+                        <svg viewBox="0 0 102 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="big-circle"
+                                d="M101 51C101 78.6142 78.6142 101 51 101C23.3858 101 1 78.6142 1 51" stroke="#252525"
+                                stroke-width="0.3" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="center-content">
+                    <h1>Портфолио</h1>
+                    <p>Здесь вы найдете мои последние проекты, навыки и образование в разработке веб-сайтов.
+                    </p>
+                    <p>Свяжитесь со мной, чтобы обсудить проекты. Спасибо за внимание!</p>
+                    <button class="btn mt3">Оставить заявку</button>
+
+                    <!-- <div class="semicircle">
+                        <div class="line"></div>
+                    </div> -->
+
+                </div>
+            </div>
+
+            <div class="work-slider">
+                <div id="main" class="step">
+                    <div class="step-grid">
+                        <div class="">
+                            <div class="image bg-cov" style="background-image: url('https://images.unsplash.com/photo-1645511897803-617335ebb916?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80');">
+                            </div>
+                            <div class="content">
+                                <div class="content-info">
+                                    <div class="title">title text</div>
+                                    <div class="count">03</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="content">
+                                <div class="content-info">
+                                    <div class="title">title text</div>
+                                    <div class="count">03</div>
+                                </div>
+                            </div>
+                            <div class="image bg-cov" style="background-image: url('https://images.unsplash.com/photo-1659959103925-b40b9108a5b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=415&q=80');">
+                            </div>
+
+                        </div>
+                        <div class="">
+                            <div class="image bg-cov" style="background-image: url('https://images.unsplash.com/photo-1644310972589-643a2099d946?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80');">
+                            </div>
+                            <div class="content">
+                                <div class="content-info">
+                                    <div class="title">title text</div>
+                                    <div class="count">03</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div id="feature" class="step"></div>
+                <div id="about" class="step">
+
+                </div>
+                <div id="contact" class="step"></div>
+                <div id="services" class="step"></div>
+                <div id="orders" class="step"></div>
+            </div>
+            <div class="sidebar">
+                <div class="icon-menu"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- <section id="process" class="process dn">
+        <div class="container process-sticky">
+            <div class="process-parent">
+                <div class="process-parent__sticky">
+                    <div class="section-title">
+                        <h2>the process</h2>
+                    </div>
+                    <div class="process-parent__flex">
+                        <div class="process-parent__pre">
+                            <span>pre</span>
+                            <hr>
+                        </div>
+                        <div class="process-parent__grid">
+                            <div class="process-parent__item view active">
+                                <button class="process-item__button button-1"></button>
+                                <div class="process-item__bottom">
+                                    <span>01</span>
+                                    <hr>
+                                </div>
+                                <div class="process-item__info">
+                                    <h5>Design Your Platform</h5>
+                                    <p>Our marketing team will help you make the most of your launch. With our years of
+                                        marketing experience we help you create the optimal launch strategy. We have a
+                                        time, we have a date. LETS GO LIVE!</p>
+                                    <button>cdscdvd
+                                        <picture>
+                                            <source srcset="img/bt-arrow.webp" type="image/webp"><img
+                                                src="img/bt-arrow.png" alt="></picture>">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="process-parent__item">
+                                <button onclick="reScroll(2, event)" class="process-item__button button-2"></button>
+                                <div class="process-item__bottom">
+                                    <span>02</span>
+                                    <hr>
+                                </div>
+                                <div class="process-item__info">
+                                    <h5>Development</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A rerum autem nisi
+                                        alias? Quo, atque? Pariatur sed adipisci quos dolorem!</p>
+                                    <button>
+                                        <picture>
+                                            <source srcset="img/bt-arrow.webp" type="image/webp"><img
+                                                src="img/bt-arrow.png" alt="></picture>">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="process-parent__item">
+                                <button onclick="reScroll(3, event)" class="process-item__button button-3"></button>
+                                <div class="process-item__bottom">
+                                    <span>03</span>
+                                    <hr>
+                                </div>
+                                <div class="process-item__info">
+                                    <h5>Revenue Streams</h5>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, quam.</p>
+                                    <button>
+                                        <picture>
+                                            <source srcset="img/bt-arrow.webp" type="image/webp"><img
+                                                src="img/bt-arrow.png" alt="></picture>">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="process-parent__item">
+                                <button onclick="reScroll(4, event)" class="process-item__button button-4"></button>
+                                <div class="process-item__bottom">
+                                    <span>04</span>
+                                    <hr>
+                                </div>
+                                <div class="process-item__info">
+                                    <h5>Design your NFT' s</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur repudiandae incidunt voluptatibus provident! Impedit, rerum. Voluptatem, totam fugiat consequuntur laboriosam ullam enim.</p>
+                                <button>
+                                    <picture>
+                                        <source srcset="img/bt-arrow.webp" type="image/webp"><img src="img/bt-arrow.png"
+                                            alt="></picture>">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="process-parent__item">
+                            <button onclick="reScroll(5, event)" class="process-item__button button-5"></button>
+                            <div class="process-item__bottom">
+                                <span>05</span>
+                                <hr>
+                            </div>
+                            <div class="process-item__info">
+                                <h5>Minting and Distribution</h5>
+                                <p>Our marketing team will help you make the most of your launch. With our years of marketing experience we help you create the optimal launch strategy. We have a time, we have a date. LETS GO LIVE!</p>
+                                <button>
+                                    <picture>
+                                        <source srcset="img/bt-arrow.webp" type="image/webp"><img src="img/bt-arrow.png"
+                                            alt="></picture>">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="process-parent__item">
+                            <button onclick="reScroll(6, event)" class="process-item__button button-6"></button>
+                            <div class="process-item__bottom">
+                                <span>06</span>
+                                <hr>
+                            </div>
+                            <div class="process-item__info">
+                                <h5>Launch</h5>
+                                <p>Our marketing team will help you make the most of your launch. With our years of marketing experience we help you create the optimal launch strategy. We have a time, we have a date. LETS GO LIVE!</p>
+                                <button>
+                                    <picture>
+                                        <source srcset="img/bt-arrow.webp" type="image/webp"><img src="img/bt-arrow.png"
+                                            alt="></picture>">
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section> -->@@include('_footer.html')
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
